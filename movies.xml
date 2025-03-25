@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie>
+        <title>The Birth of a Nation</title>
+        <director>D. W. Griffith</director>
+        <year>1915</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Nosferatu</title>
+        <director>F. W. Murnau</director>
+        <year>1922</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>Metropolis</title>
+        <director>Fritz Lang</director>
+        <year>1927</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>The General</title>
+        <director>Buster Keaton</director>
+        <year>1926</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>The Cabinet of Dr. Caligari</title>
+        <director>Robert Wiene</director>
+        <year>1920</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>Safety Last!</title>
+        <director>Fred C. Newmeyer, Sam Taylor</director>
+        <year>1923</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Dr. Jekyll and Mr. Hyde</title>
+        <director>John S. Robertson</director>
+        <year>1920</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>The Phantom of the Opera</title>
+        <director>Rupert Julian</director>
+        <year>1925</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>Faust</title>
+        <director>F. W. Murnau</director>
+        <year>1926</year>
+        <genre>Fantasy</genre>
+    </movie>
+    <movie>
+        <title>The Gold Rush</title>
+        <director>Charlie Chaplin</director>
+        <year>1925</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Man with a Movie Camera</title>
+        <director>Dziga Vertov</director>
+        <year>1929</year>
+        <genre>Documentary</genre>
+    </movie>
+    <movie>
+        <title>Häxan</title>
+        <director>Benjamin Christensen</director>
+        <year>1922</year>
+        <genre>Documentary</genre>
+    </movie>
+    <movie>
+        <title>The Kid</title>
+        <director>Charlie Chaplin</director>
+        <year>1921</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Intolerance</title>
+        <director>D. W. Griffith</director>
+        <year>1916</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Greed</title>
+        <director>Erich von Stroheim</director>
+        <year>1924</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Sunset Boulevard</title>
+        <director>Billy Wilder</director>
+        <year>1950</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>12 Angry Men</title>
+        <director>Sidney Lumet</director>
+        <year>1957</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>North by Northwest</title>
+        <director>Alfred Hitchcock</director>
+        <year>1959</year>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <title>Lawrence of Arabia</title>
+        <director>David Lean</director>
+        <year>1962</year>
+        <genre>Adventure</genre>
+    </movie>
+    <movie>
+        <title>The Godfather</title>
+        <director>Francis Ford Coppola</director>
+        <year>1972</year>
+        <genre>Crime</genre>
+    </movie>
+    <movie>
+        <title>Star Wars: Episode IV - A New Hope</title>
+        <director>George Lucas</director>
+        <year>1977</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Back to the Future</title>
+        <director>Robert Zemeckis</director>
+        <year>1985</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Jurassic Park</title>
+        <director>Steven Spielberg</director>
+        <year>1993</year>
+        <genre>Adventure</genre>
+    </movie>
+    <movie>
+        <title>The Matrix</title>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <year>1999</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Inception</title>
+        <director>Christopher Nolan</director>
+        <year>2010</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>The Passion of Joan of Arc</title>
+        <director>Carl Theodor Dreyer</director>
+        <year>1928</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Thief of Bagdad</title>
+        <director>Raoul Walsh</director>
+        <year>1924</year>
+        <genre>Fantasy</genre>
+    </movie>
+    <movie>
+        <title>Broken Blossoms</title>
+        <director>D. W. Griffith</director>
+        <year>1919</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Hunchback of Notre Dame</title>
+        <director>Wallace Worsley</director>
+        <year>1923</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Lost World</title>
+        <director>Harry O. Hoyt</director>
+        <year>1925</year>
+        <genre>Adventure</genre>
+    </movie>
+    <movie>
+        <title>Wings</title>
+        <director>William A. Wellman</director>
+        <year>1927</year>
+        <genre>War</genre>
+    </movie>
+    <movie>
+        <title>Steamboat Bill, Jr.</title>
+        <director>Buster Keaton, Charles Reisner</director>
+        <year>1928</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Sunrise: A Song of Two Humans</title>
+        <director>F. W. Murnau</director>
+        <year>1927</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Battleship Potemkin</title>
+        <director>Sergei Eisenstein</director>
+        <year>1925</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Last Laugh</title>
+        <director>F. W. Murnau</director>
+        <year>1924</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Navigator</title>
+        <director>Buster Keaton, Donald Crisp</director>
+        <year>1924</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>The Circus</title>
+        <director>Charlie Chaplin</director>
+        <year>1928</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>The Lodger: A Story of the London Fog</title>
+        <director>Alfred Hitchcock</director>
+        <year>1927</year>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <title>The Freshman</title>
+        <director>Fred C. Newmeyer, Sam Taylor</director>
+        <year>1925</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>The Phantom Carriage</title>
+        <director>Victor Sjöström</director>
+        <year>1921</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Metropolis</title>
+        <director>Fritz Lang</director>
+        <year>1927</year>
+        <genre>Science Fiction</genre>
+    </movie>
+    <movie>
+        <title>The General</title>
+        <director>Buster Keaton</director>
+        <year>1926</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>The Cabinet of Dr. Caligari</title>
+        <director>Robert Wiene</director>
+        <year>1920</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>Safety Last!</title>
+        <director>Fred C. Newmeyer, Sam Taylor</director>
+        <year>1923</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Dr. Jekyll and Mr. Hyde</title>
+        <director>John S. Robertson</director>
+        <year>1920</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>The Phantom of the Opera</title>
+        <director>Rupert Julian</director>
+        <year>1925</year>
+        <genre>Horror</genre>
+    </movie>
+    <movie>
+        <title>Faust</title>
+        <director>F. W. Murnau</director>
+        <year>1926</year>
+        <genre>Fantasy</genre>
+    </movie>
+    <movie>
+        <title>The Gold Rush</title>
+        <director>Charlie Chaplin</director>
+        <year>1925</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Man with a Movie Camera</title>
+        <director>Dziga Vertov</director>
+        <year>1929</year>
+        <genre>Documentary</genre>
+    </movie>
+    <movie>
+        <title>Häxan</title>
+        <director>Benjamin Christensen</director>
+        <year>1922</year>
+        <genre>Documentary</genre>
+    </movie>
+    <movie>
+        <title>The Kid</title>
+        <director>Charlie Chaplin</director>
+        <year>1921</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>Intolerance</title>
+        <director>D. W. Griffith</director>
+        <year>1916</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Citizen Kane</title>
+        <director>Orson Welles</director>
+        <year>1941</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Casablanca</title>
+        <director>Michael Curtiz</director>
+        <year>1942</year>
+        <genre>Romance</genre>
+    </movie>
+    <movie>
+        <title>It's a Wonderful Life</title>
+        <director>Frank Capra</director>
+        <year>1946</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Sunset Boulevard</title>
+        <director>Billy Wilder</director>
+        <year>1950</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>12 Angry Men</title>
+        <director>Sidney Lumet</director>
+        <year>1957</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>North by Northwest</title>
+        <director>Alfred Hitchcock</director>
+        <year>1959</year>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <title>Lawrence of Arabia</title>
+        <director>David Lean</director>
+        <year>1962</year>
+        <genre>Adventure</genre>
+    </movie>
+    <movie>
+        <title>The Godfather</title>
+        <director>Francis Ford Coppola</director>
+        <year>1972</year>
+        <genre>Crime</genre>
+    </movie>
+    <movie>
+        <title>Star Wars: Episode IV - A New Hope</title>
+        <director>George Lucas</director>
+        <year>1977</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Back to the Future</title>
+        <director>Robert Zemeckis</director>
+        <year>1985</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Jurassic Park</title>
+        <director>Steven Spielberg</director>
+        <year>1993</year>
+        <genre>Adventure</genre>
+    </movie>
+    <movie>
+        <title>The Matrix</title>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <year>1999</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Inception</title>
+        <director>Christopher Nolan</director>
+        <year>2010</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Schindler's List</title>
+        <director>Steven Spielberg</director>
+        <year>1993</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Forrest Gump</title>
+        <director>Robert Zemeckis</director>
+        <year>1994</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Shawshank Redemption</title>
+        <director>Frank Darabont</director>
+        <year>1994</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Pulp Fiction</title>
+        <director>Quentin Tarantino</director>
+        <year>1994</year>
+        <genre>Crime</genre>
+    </movie>
+    <movie>
+        <title>The Dark Knight</title>
+        <director>Christopher Nolan</director>
+        <year>2008</year>
+        <genre>Action</genre>
+    </movie>
+    <movie>
+        <title>Fight Club</title>
+        <director>David Fincher</director>
+        <year>1999</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>The Lord of the Rings: The Fellowship of the Ring</title>
+        <director>Peter Jackson</director>
+        <year>2001</year>
+        <genre>Fantasy</genre>
+    </movie>
+    <movie>
+        <title>The Lord of the Rings: The Two Towers</title>
+        <director>Peter Jackson</director>
+        <year>2002</year>
+        <genre>Fantasy</genre>
+    </movie>
+    <movie>
+        <title>The Lord of the Rings: The Return of the King</title>
+        <director>Peter Jackson</director>
+        <year>2003</year>
+        <genre>Fantasy</genre>
+    </movie>
+    <movie>
+        <title>Gladiator</title>
+        <director>Ridley Scott</director>
+        <year>2000</year>
+        <genre>Action</genre>
+    </movie>
+    <movie>
+        <title>Braveheart</title>
+        <director>Mel Gibson</director>
+        <year>1995</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Titanic</title>
+        <director>James Cameron</director>
+        <year>1997</year>
+        <genre>Romance</genre>
+    </movie>
+    <movie>
+        <title>Avatar</title>
+        <director>James Cameron</director>
+        <year>2009</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Goodfellas</title>
+        <director>Martin Scorsese</director>
+        <year>1990</year>
+        <genre>Crime</genre>
+    </movie>
+    <movie>
+        <title>The Silence of the Lambs</title>
+        <director>Jonathan Demme</director>
+        <year>1991</year>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <title>Saving Private Ryan</title>
+        <director>Steven Spielberg</director>
+        <year>1998</year>
+        <genre>War</genre>
+    </movie>
+    <movie>
+        <title>The Green Mile</title>
+        <director>Frank Darabont</director>
+        <year>1999</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Se7en</title>
+        <director>David Fincher</director>
+        <year>1995</year>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <title>Interstellar</title>
+        <director>Christopher Nolan</director>
+        <year>2014</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>The Lion King</title>
+        <director>Roger Allers, Rob Minkoff</director>
+        <year>1994</year>
+        <genre>Animation</genre>
+    </movie>
+    <movie>
+        <title>Spirited Away</title>
+        <director>Hayao Miyazaki</director>
+        <year>2001</year>
+        <genre>Animation</genre>
+    </movie>
+    <movie>
+        <title>Parasite</title>
+        <director>Bong Joon-ho</director>
+        <year>2019</year>
+        <genre>Thriller</genre>
+    </movie>
+    <movie>
+        <title>Whiplash</title>
+        <director>Damien Chazelle</director>
+        <year>2014</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Mad Max: Fury Road</title>
+        <director>George Miller</director>
+        <year>2015</year>
+        <genre>Action</genre>
+    </movie>
+    <movie>
+        <title>The Grand Budapest Hotel</title>
+        <director>Wes Anderson</director>
+        <year>2014</year>
+        <genre>Comedy</genre>
+    </movie>
+    <movie>
+        <title>La La Land</title>
+        <director>Damien Chazelle</director>
+        <year>2016</year>
+        <genre>Musical</genre>
+    </movie>
+    <movie>
+        <title>Joker</title>
+        <director>Todd Phillips</director>
+        <year>2019</year>
+        <genre>Drama</genre>
+    </movie>
+    <movie>
+        <title>Blade Runner 2049</title>
+        <director>Denis Villeneuve</director>
+        <year>2017</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Her</title>
+        <director>Spike Jonze</director>
+        <year>2013</year>
+        <genre>Romance</genre>
+    </movie>
+    <movie>
+        <title>Gravity</title>
+        <director>Alfonso Cuarón</director>
+        <year>2013</year>
+        <genre>Sci-Fi</genre>
+    </movie>
+    <movie>
+        <title>Black Panther</title>
+        <director>Ryan Coogler</director>
+        <year>2018</year>
+        <genre>Action</genre>
+    </movie>
+</movies>

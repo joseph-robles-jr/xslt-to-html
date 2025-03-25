@@ -1,0 +1,684 @@
+<!DOCTYPE HTML>
+<html xmlns:my="http://example.com/my-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Joseph's Movie Database</title>
+      <link rel="stylesheet" type="text/css" href="styles.css"><script src="movies.js" defer=""></script><script src="script.js" defer=""></script></head>
+   <body>
+      <nav><a href="#home">Home</a><a href="#movies">Movies</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <div class="titlebar">
+         <h2>Movies</h2><button id="hello-button">Do Not Click Me</button><h5> Date Last Updated: 24 March 2025 09:40 p.m.</h5>
+      </div>
+      <div class="MovieContainer">
+         <div class="Movie" id="Movie-0">
+            <ul>
+               <li class="title"> Title: 12 Angry Men</li>
+               <li class="Director"> Author: Sidney Lumet</li>
+               <li class="release-year"> Release Year: 1957</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-1">
+            <ul>
+               <li class="title"> Title: Avatar</li>
+               <li class="Director"> Author: James Cameron</li>
+               <li class="release-year"> Release Year: 2009</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-2">
+            <ul>
+               <li class="title"> Title: Back to the Future</li>
+               <li class="Director"> Author: Robert Zemeckis</li>
+               <li class="release-year"> Release Year: 1985</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-3">
+            <ul>
+               <li class="title"> Title: Black Panther</li>
+               <li class="Director"> Author: Ryan Coogler</li>
+               <li class="release-year"> Release Year: 2018</li>
+               <li class="genre">Genre: Action</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-4">
+            <ul>
+               <li class="title"> Title: Blade Runner 2049</li>
+               <li class="Director"> Author: Denis Villeneuve</li>
+               <li class="release-year"> Release Year: 2017</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-5">
+            <ul>
+               <li class="title"> Title: Braveheart</li>
+               <li class="Director"> Author: Mel Gibson</li>
+               <li class="release-year"> Release Year: 1995</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-6">
+            <ul>
+               <li class="title"> Title: Broken Blossoms</li>
+               <li class="Director"> Author: D. W. Griffith</li>
+               <li class="release-year-classic"> Release Year (Classic): 1919</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-7">
+            <ul>
+               <li class="title"> Title: Casablanca</li>
+               <li class="Director"> Author: Michael Curtiz</li>
+               <li class="release-year-classic"> Release Year (Classic): 1942</li>
+               <li class="genre">Genre: Romance</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-8">
+            <ul>
+               <li class="title"> Title: Citizen Kane</li>
+               <li class="Director"> Author: Orson Welles</li>
+               <li class="release-year-classic"> Release Year (Classic): 1941</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-9">
+            <ul>
+               <li class="title"> Title: Dr. Jekyll and Mr. Hyde</li>
+               <li class="Director"> Author: John S. Robertson</li>
+               <li class="release-year-classic"> Release Year (Classic): 1920</li>
+               <li class="genre-horror">Genre: Horror</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-10">
+            <ul>
+               <li class="title"> Title: Faust</li>
+               <li class="Director"> Author: F. W. Murnau</li>
+               <li class="release-year-classic"> Release Year (Classic): 1926</li>
+               <li class="genre-fantasy">Genre: Fantasy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-11">
+            <ul>
+               <li class="title"> Title: Fight Club</li>
+               <li class="Director"> Author: David Fincher</li>
+               <li class="release-year"> Release Year: 1999</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-12">
+            <ul>
+               <li class="title"> Title: Forrest Gump</li>
+               <li class="Director"> Author: Robert Zemeckis</li>
+               <li class="release-year"> Release Year: 1994</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-13">
+            <ul>
+               <li class="title"> Title: Gladiator</li>
+               <li class="Director"> Author: Ridley Scott</li>
+               <li class="release-year"> Release Year: 2000</li>
+               <li class="genre">Genre: Action</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-14">
+            <ul>
+               <li class="title"> Title: Goodfellas</li>
+               <li class="Director"> Author: Martin Scorsese</li>
+               <li class="release-year"> Release Year: 1990</li>
+               <li class="genre-crime">Genre: Crime</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-15">
+            <ul>
+               <li class="title"> Title: Gravity</li>
+               <li class="Director"> Author: Alfonso Cuarón</li>
+               <li class="release-year"> Release Year: 2013</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-16">
+            <ul>
+               <li class="title"> Title: Greed</li>
+               <li class="Director"> Author: Erich von Stroheim</li>
+               <li class="release-year-classic"> Release Year (Classic): 1924</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-17">
+            <ul>
+               <li class="title"> Title: Her</li>
+               <li class="Director"> Author: Spike Jonze</li>
+               <li class="release-year"> Release Year: 2013</li>
+               <li class="genre">Genre: Romance</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-18">
+            <ul>
+               <li class="title"> Title: Häxan</li>
+               <li class="Director"> Author: Benjamin Christensen</li>
+               <li class="release-year-classic"> Release Year (Classic): 1922</li>
+               <li class="genre-documentary">Genre: Documentary</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-19">
+            <ul>
+               <li class="title"> Title: Inception</li>
+               <li class="Director"> Author: Christopher Nolan</li>
+               <li class="release-year"> Release Year: 2010</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-20">
+            <ul>
+               <li class="title"> Title: Interstellar</li>
+               <li class="Director"> Author: Christopher Nolan</li>
+               <li class="release-year"> Release Year: 2014</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-21">
+            <ul>
+               <li class="title"> Title: Intolerance</li>
+               <li class="Director"> Author: D. W. Griffith</li>
+               <li class="release-year-classic"> Release Year (Classic): 1916</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-22">
+            <ul>
+               <li class="title"> Title: It's a Wonderful Life</li>
+               <li class="Director"> Author: Frank Capra</li>
+               <li class="release-year-classic"> Release Year (Classic): 1946</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-23">
+            <ul>
+               <li class="title"> Title: Joker</li>
+               <li class="Director"> Author: Todd Phillips</li>
+               <li class="release-year"> Release Year: 2019</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-24">
+            <ul>
+               <li class="title"> Title: Jurassic Park</li>
+               <li class="Director"> Author: Steven Spielberg</li>
+               <li class="release-year"> Release Year: 1993</li>
+               <li class="genre-adventure">Genre: Adventure</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-25">
+            <ul>
+               <li class="title"> Title: La La Land</li>
+               <li class="Director"> Author: Damien Chazelle</li>
+               <li class="release-year"> Release Year: 2016</li>
+               <li class="genre">Genre: Musical</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-26">
+            <ul>
+               <li class="title"> Title: Lawrence of Arabia</li>
+               <li class="Director"> Author: David Lean</li>
+               <li class="release-year"> Release Year: 1962</li>
+               <li class="genre-adventure">Genre: Adventure</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-27">
+            <ul>
+               <li class="title"> Title: Mad Max: Fury Road</li>
+               <li class="Director"> Author: George Miller</li>
+               <li class="release-year"> Release Year: 2015</li>
+               <li class="genre">Genre: Action</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-28">
+            <ul>
+               <li class="title"> Title: Man with a Movie Camera</li>
+               <li class="Director"> Author: Dziga Vertov</li>
+               <li class="release-year-classic"> Release Year (Classic): 1929</li>
+               <li class="genre-documentary">Genre: Documentary</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-29">
+            <ul>
+               <li class="title"> Title: Metropolis</li>
+               <li class="Director"> Author: Fritz Lang</li>
+               <li class="release-year-classic"> Release Year (Classic): 1927</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-30">
+            <ul>
+               <li class="title"> Title: North by Northwest</li>
+               <li class="Director"> Author: Alfred Hitchcock</li>
+               <li class="release-year"> Release Year: 1959</li>
+               <li class="genre-thriller">Genre: Thriller</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-31">
+            <ul>
+               <li class="title"> Title: Nosferatu</li>
+               <li class="Director"> Author: F. W. Murnau</li>
+               <li class="release-year-classic"> Release Year (Classic): 1922</li>
+               <li class="genre-horror">Genre: Horror</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-32">
+            <ul>
+               <li class="title"> Title: Parasite</li>
+               <li class="Director"> Author: Bong Joon-ho</li>
+               <li class="release-year"> Release Year: 2019</li>
+               <li class="genre-thriller">Genre: Thriller</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-33">
+            <ul>
+               <li class="title"> Title: Pulp Fiction</li>
+               <li class="Director"> Author: Quentin Tarantino</li>
+               <li class="release-year"> Release Year: 1994</li>
+               <li class="genre-crime">Genre: Crime</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-34">
+            <ul>
+               <li class="title"> Title: Safety Last!</li>
+               <li class="Director"> Author: Fred C. Newmeyer, Sam Taylor</li>
+               <li class="release-year-classic"> Release Year (Classic): 1923</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-35">
+            <ul>
+               <li class="title"> Title: Saving Private Ryan</li>
+               <li class="Director"> Author: Steven Spielberg</li>
+               <li class="release-year"> Release Year: 1998</li>
+               <li class="genre-war">Genre: War</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-36">
+            <ul>
+               <li class="title"> Title: Schindler's List</li>
+               <li class="Director"> Author: Steven Spielberg</li>
+               <li class="release-year"> Release Year: 1993</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-37">
+            <ul>
+               <li class="title"> Title: Se7en</li>
+               <li class="Director"> Author: David Fincher</li>
+               <li class="release-year"> Release Year: 1995</li>
+               <li class="genre-thriller">Genre: Thriller</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-38">
+            <ul>
+               <li class="title"> Title: Spirited Away</li>
+               <li class="Director"> Author: Hayao Miyazaki</li>
+               <li class="release-year"> Release Year: 2001</li>
+               <li class="genre">Genre: Animation</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-39">
+            <ul>
+               <li class="title"> Title: Star Wars: Episode IV - A New Hope</li>
+               <li class="Director"> Author: George Lucas</li>
+               <li class="release-year"> Release Year: 1977</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-40">
+            <ul>
+               <li class="title"> Title: Steamboat Bill, Jr.</li>
+               <li class="Director"> Author: Buster Keaton, Charles Reisner</li>
+               <li class="release-year-classic"> Release Year (Classic): 1928</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-41">
+            <ul>
+               <li class="title"> Title: Sunrise: A Song of Two Humans</li>
+               <li class="Director"> Author: F. W. Murnau</li>
+               <li class="release-year-classic"> Release Year (Classic): 1927</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-42">
+            <ul>
+               <li class="title"> Title: Sunset Boulevard</li>
+               <li class="Director"> Author: Billy Wilder</li>
+               <li class="release-year"> Release Year: 1950</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-43">
+            <ul>
+               <li class="title"> Title: The Battleship Potemkin</li>
+               <li class="Director"> Author: Sergei Eisenstein</li>
+               <li class="release-year-classic"> Release Year (Classic): 1925</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-44">
+            <ul>
+               <li class="title"> Title: The Birth of a Nation</li>
+               <li class="Director"> Author: D. W. Griffith</li>
+               <li class="release-year-classic"> Release Year (Classic): 1915</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-45">
+            <ul>
+               <li class="title"> Title: The Cabinet of Dr. Caligari</li>
+               <li class="Director"> Author: Robert Wiene</li>
+               <li class="release-year-classic"> Release Year (Classic): 1920</li>
+               <li class="genre-horror">Genre: Horror</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-46">
+            <ul>
+               <li class="title"> Title: The Circus</li>
+               <li class="Director"> Author: Charlie Chaplin</li>
+               <li class="release-year-classic"> Release Year (Classic): 1928</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-47">
+            <ul>
+               <li class="title"> Title: The Dark Knight</li>
+               <li class="Director"> Author: Christopher Nolan</li>
+               <li class="release-year"> Release Year: 2008</li>
+               <li class="genre">Genre: Action</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-48">
+            <ul>
+               <li class="title"> Title: The Freshman</li>
+               <li class="Director"> Author: Fred C. Newmeyer, Sam Taylor</li>
+               <li class="release-year-classic"> Release Year (Classic): 1925</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-49">
+            <ul>
+               <li class="title"> Title: The General</li>
+               <li class="Director"> Author: Buster Keaton</li>
+               <li class="release-year-classic"> Release Year (Classic): 1926</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-50">
+            <ul>
+               <li class="title"> Title: The Godfather</li>
+               <li class="Director"> Author: Francis Ford Coppola</li>
+               <li class="release-year"> Release Year: 1972</li>
+               <li class="genre-crime">Genre: Crime</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-51">
+            <ul>
+               <li class="title"> Title: The Gold Rush</li>
+               <li class="Director"> Author: Charlie Chaplin</li>
+               <li class="release-year-classic"> Release Year (Classic): 1925</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-52">
+            <ul>
+               <li class="title"> Title: The Grand Budapest Hotel</li>
+               <li class="Director"> Author: Wes Anderson</li>
+               <li class="release-year"> Release Year: 2014</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-53">
+            <ul>
+               <li class="title"> Title: The Green Mile</li>
+               <li class="Director"> Author: Frank Darabont</li>
+               <li class="release-year"> Release Year: 1999</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-54">
+            <ul>
+               <li class="title"> Title: The Hunchback of Notre Dame</li>
+               <li class="Director"> Author: Wallace Worsley</li>
+               <li class="release-year-classic"> Release Year (Classic): 1923</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-55">
+            <ul>
+               <li class="title"> Title: The Kid</li>
+               <li class="Director"> Author: Charlie Chaplin</li>
+               <li class="release-year-classic"> Release Year (Classic): 1921</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-56">
+            <ul>
+               <li class="title"> Title: The Last Laugh</li>
+               <li class="Director"> Author: F. W. Murnau</li>
+               <li class="release-year-classic"> Release Year (Classic): 1924</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-57">
+            <ul>
+               <li class="title"> Title: The Lion King</li>
+               <li class="Director"> Author: Roger Allers, Rob Minkoff</li>
+               <li class="release-year"> Release Year: 1994</li>
+               <li class="genre">Genre: Animation</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-58">
+            <ul>
+               <li class="title"> Title: The Lodger: A Story of the London Fog</li>
+               <li class="Director"> Author: Alfred Hitchcock</li>
+               <li class="release-year-classic"> Release Year (Classic): 1927</li>
+               <li class="genre-thriller">Genre: Thriller</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-59">
+            <ul>
+               <li class="title"> Title: The Lord of the Rings: The Fellowship of the Ring</li>
+               <li class="Director"> Author: Peter Jackson</li>
+               <li class="release-year"> Release Year: 2001</li>
+               <li class="genre-fantasy">Genre: Fantasy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-60">
+            <ul>
+               <li class="title"> Title: The Lord of the Rings: The Return of the King</li>
+               <li class="Director"> Author: Peter Jackson</li>
+               <li class="release-year"> Release Year: 2003</li>
+               <li class="genre-fantasy">Genre: Fantasy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-61">
+            <ul>
+               <li class="title"> Title: The Lord of the Rings: The Two Towers</li>
+               <li class="Director"> Author: Peter Jackson</li>
+               <li class="release-year"> Release Year: 2002</li>
+               <li class="genre-fantasy">Genre: Fantasy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-62">
+            <ul>
+               <li class="title"> Title: The Lost World</li>
+               <li class="Director"> Author: Harry O. Hoyt</li>
+               <li class="release-year-classic"> Release Year (Classic): 1925</li>
+               <li class="genre-adventure">Genre: Adventure</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-63">
+            <ul>
+               <li class="title"> Title: The Matrix</li>
+               <li class="Director"> Author: Lana Wachowski, Lilly Wachowski</li>
+               <li class="release-year"> Release Year: 1999</li>
+               <li class="genre-sci-fi">Genre: Sci-Fi</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-64">
+            <ul>
+               <li class="title"> Title: The Navigator</li>
+               <li class="Director"> Author: Buster Keaton, Donald Crisp</li>
+               <li class="release-year-classic"> Release Year (Classic): 1924</li>
+               <li class="genre-comedy">Genre: Comedy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-65">
+            <ul>
+               <li class="title"> Title: The Passion of Joan of Arc</li>
+               <li class="Director"> Author: Carl Theodor Dreyer</li>
+               <li class="release-year-classic"> Release Year (Classic): 1928</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-66">
+            <ul>
+               <li class="title"> Title: The Phantom Carriage</li>
+               <li class="Director"> Author: Victor Sjöström</li>
+               <li class="release-year-classic"> Release Year (Classic): 1921</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-67">
+            <ul>
+               <li class="title"> Title: The Phantom of the Opera</li>
+               <li class="Director"> Author: Rupert Julian</li>
+               <li class="release-year-classic"> Release Year (Classic): 1925</li>
+               <li class="genre-horror">Genre: Horror</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-68">
+            <ul>
+               <li class="title"> Title: The Shawshank Redemption</li>
+               <li class="Director"> Author: Frank Darabont</li>
+               <li class="release-year"> Release Year: 1994</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-69">
+            <ul>
+               <li class="title"> Title: The Silence of the Lambs</li>
+               <li class="Director"> Author: Jonathan Demme</li>
+               <li class="release-year"> Release Year: 1991</li>
+               <li class="genre-thriller">Genre: Thriller</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-70">
+            <ul>
+               <li class="title"> Title: The Thief of Bagdad</li>
+               <li class="Director"> Author: Raoul Walsh</li>
+               <li class="release-year-classic"> Release Year (Classic): 1924</li>
+               <li class="genre-fantasy">Genre: Fantasy</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-71">
+            <ul>
+               <li class="title"> Title: Titanic</li>
+               <li class="Director"> Author: James Cameron</li>
+               <li class="release-year"> Release Year: 1997</li>
+               <li class="genre">Genre: Romance</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-72">
+            <ul>
+               <li class="title"> Title: Whiplash</li>
+               <li class="Director"> Author: Damien Chazelle</li>
+               <li class="release-year"> Release Year: 2014</li>
+               <li class="genre-drama">Genre: Drama</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+         <div class="Movie" id="Movie-73">
+            <ul>
+               <li class="title"> Title: Wings</li>
+               <li class="Director"> Author: William A. Wellman</li>
+               <li class="release-year-classic"> Release Year (Classic): 1927</li>
+               <li class="genre-war">Genre: War</li>
+               <li class="plot"> Plot: <span class="plot-text"></span></li>
+            </ul>
+         </div>
+      </div>
+      <footer>
+         <p> Copyright 2025 Joseph Robles</p>
+      </footer>
+   </body>
+</html>
